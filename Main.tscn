@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+
+[node name="Main" type="Node"]
+script = ExtResource( 1 )
+
+[node name="StartPosition" type="Position2D" parent="."]
+position = Vector2( 238, 698 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 236, 621 )
+offset = Vector2( 0, -200 )
+current = true
+smoothing_enabled = true
+smoothing_speed = 7.0
